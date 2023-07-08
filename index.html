@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style type="text/css">
+	*{
+		padding: 0px;
+		margin: 0px;
+		box-sizing: border-box;
+	}
+
+	/****************************Group one Header**********************************/
+	.Header{
+		background-color:black;
+		width:100%;
+		height:105px;
+        position: relative;
+	}
+
+	.Logo{
+		background-color:#630008;
+		width:100px ;
+		height: 100px;
+		border-radius: 50%;
+		position: absolute;
+		top:0.8%; left:6%;
+	}
+
+	.Text{
+       color:#0b4ff5;
+       font-size: 80px;
+      position: absolute;
+      top: 0; left:40%;
+	}
+
+	/********************************************************************************/
+
+    /*********************************Group 2**********************************/
+	.Middle{
+		position: relative;
+		height:900px;
+		background-color:yellow;
+	}
+
+	.Left{
+		position: absolute;
+		height: 450px;
+		width: 650px;
+		border-radius: 25px;
+		background-color:#00e4fe;
+		top: 5%; left: 1%;
+	}
+
+	.Right{
+		position: absolute;
+		height: 450px;
+		width: 650px;
+		border-radius: 25px;
+		background-color:#1178dc;
+		top: 5%; right: 1%;
+	}
+
+     /***********************************************/
+
+     /******************************Group Left********************/
+	.Grid-Container-one{
+		display: grid;
+		grid-template-columns: auto auto ;
+		grid-template-rows: auto auto;
+		margin: 40px;
+		gap: 10px;
+		margin-top: 70px;
+	}
+
+	.BoxA{
+		background-color:#d1043d;
+		height: 150px;
+		width: 250px;
+		border-radius: 15px;
+	}
+
+	.BoxB{
+		background-color:#ecdc3e;
+		height: 150px;
+		width: 250px;
+		border-radius: 15px;
+	}
+
+
+   .BoxC{
+		background-color:#f80fb3;
+		height: 150px;
+		width: 250px;
+		border-radius: 15px;
+	}
+
+    .BoxD{
+	    background-color:#f22c28;
+		height: 150px;
+		width: 250px;
+ 		border-radius: 15px;
+          }
+    /*************************************************************************/
+
+    /*********************************Group Right*****************************/
+	.Grid-Container-two{
+		display: grid;
+		grid-template-columns: auto auto ;
+		grid-template-rows: auto auto;
+		gap: 10px;
+		margin-top: 70px;
+		margin-right: 60px;
+		margin-left: 50px;
+	}
+
+	.BoxE{
+		background-color: #25c1ce;
+		height: 150px;
+		width: 250px;
+		border-radius: 15px;
+	}
+
+	.BoxF{
+		background-color:#7ff0e2;
+		height: 150px;
+		width: 250px;
+		border-radius: 15px;
+	}
+
+	.BoxG{
+		background-color:#25d53c;
+		height: 150px;
+		width: 250px;
+		border-radius: 15px;
+	}
+
+	.BoxH{
+		background-color:#7721eb;
+		height: 150px;
+		width: 250px;
+		border-radius: 15px;
+	}
+
+   /***********************************************************************/
+
+   .Bottom{
+   	background-color:#e7721a;
+   	width: 100%;
+   	height: 350px;
+   	position: relative;
+   	top: 60%;
+   	border-radius: 18px;
+   	   }
+
+   	 .Flex-Container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+   	 }
+   	 .BoxI{
+   	 	background-color: dodgerblue;
+   	 	height: 250px;
+   	 	width: 80%;
+   	 	border-radius: 15px;
+   	 	margin-top: 45px;
+   	 	margin-left: 20px;
+   	 }
+     .para{
+     	font-size: 20px;
+     	margin: 5px;
+     	color: white;
+     }
+
+   	 .BoxJ{
+   	 	background-color: palegoldenrod;
+   	 	height: 200px;
+   	 	width: 200px;
+   	 	border-radius: 15px;
+   	 	margin-top: 65px;
+   	 	margin-right: 10px;
+   	 }
+
+   	 .image{
+   	 	height: 200px;
+   	 	width: 200px;
+   	 	border-radius: 15px;
+   	 }
+   	 /******************************************************************************/
+
+   	 /*****************************Group Last********************************************************/
+
+   	 .Last{
+   	 	background-color:#9c779c;
+   	 	height:400px;
+   	 	width:100% ;
+   	 	position: relative;
+   	 	top: 90%;
+   	 }
+
+   	 .Flex-Container-two{
+   	 	display: flex;
+   	 	flex-direction: row;
+   	 	justify-content: center;
+   	 	align-items: center;
+   	 	background-color: #91547d;
+   	 	height: 300px;
+   	 	width: 1290px;
+   	 	margin: 30px;
+   	 	border-radius: 18px;
+   	 }
+
+   	 .BoxK{
+         height:260px ;
+         width:350px ;
+         background-color:#73177d;
+         margin: 10px;
+         border-radius: 18px;
+   	 }
+   	 .BoxL{
+         height:260px ;
+         width:350px ;
+         background-color:#73177d;
+         margin: 10px;
+          border-radius: 18px;
+   	 }
+   	 .BoxM{
+           height:260px ;
+         width:350px ;
+         background-color:#73177d;
+         margin: 10px;
+          border-radius: 18px;
+   	 }
+   	 .BoxN{
+          height:260px ;
+         width:350px ;
+         background-color:#73177d;
+         margin: 10px;
+          border-radius: 18px;
+   	 }
+
+   	 .text-two{
+   	 	font-size:50px;
+   	 	font-weight: bolder;
+   	 	display: flex;
+   	 	justify-content: center;
+   	 }
+</style>
+<body>
+	<!------------------------------Group 1------------------------------------------->
+	<div class="Header">
+	<div class="Logo"></div>
+	<div class="Text">Hello World!</div>
+	</div>
+    <!--------------------------------------------------------------------------------->
+
+
+    <!------------------------------- Group 2------------------------------------------->
+    <div class="Middle">
+	<!----------------Group Left--------------------------->
+	<div class="Left">
+	<div class="Grid-Container-one">
+	<div class="BoxA">A</div>
+	<div class="BoxB">B</div>
+	<div class="BoxC">C</div>
+	<div class="BoxD">D</div>
+	</div>
+	</div>
+	<!-------------Group Right------------------------------->
+	<div class="Right">
+	<div class="Grid-Container-two">
+	<div class="BoxE">E</div>
+	<div class="BoxF">F</div>
+	<div class="BoxG">G</div>
+	<div class="BoxH">H</div>
+	</div>
+	</div>
+
+    <!------------Group Bottom--------------------------------->
+	<div class="Bottom">
+		<!--------------Text Container-------------------------->
+	<div class="Flex-Container">
+	<div class="BoxI">
+	<p class="para">
+		ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit laborum.
+	</p>
+    </div>
+    <!---------------------Image Container---------------------------->	
+	<div class="BoxJ">
+	<img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe2-JxKl80UkbIeivIhX1qgSCKv1kVEC9I1g&usqp=CAU">
+	</div>
+	</div>
+	</div>
+    </div>
+    <!-------------------------------------------------------------------------------------->
+
+<!------------------------------------------Group 3--------------------------------------------->
+
+<div class="Last">
+	<p class="text-two">Footer</p>
+	<div class="Flex-Container-two">
+		<div class="BoxK"></div>
+		<div class="BoxL"></div>
+		<div class="BoxM"></div>
+		<div class="BoxN"></div>
+	</div>
+</div>
+</body>
+</html>
